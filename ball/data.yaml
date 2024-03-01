@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['golf ball']
+
+roboflow:
+  workspace: ben-ohno
+  project: golf-ball-detection-yfjzh
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/ben-ohno/golf-ball-detection-yfjzh/dataset/3
